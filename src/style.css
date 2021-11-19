@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ==== COLOR ==== */
+  --primary-color : #ff3f5a;
+  --second-color : #141414;
+  --text-color-light : #f5f5f5;
+  --text-color-dark : #1C1F24; 
+  --text-color-detail : #eeeeee; 
+
+  /* ==== FONT FAM ==== */
+  --title-font : 'Montserrat', sans-serif;
+  --text-font : 'Open Sans', sans-serif;;
+  --detail-font : ; 
+
+  /* ==== FONT SIZE ==== */
+  --h1-size : 22px;
+  --h2-size : 18px;
+  --h3-size : 16px;
+  --text-size : 12px; 
+  --min-size : 8px;
+}
+
+body {
+  background: var(--text-color-light);
+}
+
+h1, h2, h3 {
+  font-family: var(--title-font);
+}
+
+p { 
+  font-family: var(--text-font);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

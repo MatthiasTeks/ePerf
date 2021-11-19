@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--second-color);
+    width: 100%;
+  }
+  
+.logoAssets > img {
+    width: 140px;
+    height: 70px;
+    padding-left: 10%;
+  }
+
+.navbarSwitch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navbarSwitch > p {
+    font-family: var(--title-font);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color-light);
+    padding-left: 12px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.icons > svg {
+    font-size: 26px;
+    padding-left: 12px;
+    color: var(--text-color-light);
+}

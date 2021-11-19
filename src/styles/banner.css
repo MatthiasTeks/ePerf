@@ -1,0 +1,16 @@
+.banner {
+    background: var(--text-color-detail);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.banner > p {
+    color: grey;
+    text-align: center;
+    font-weight: 600;
+}

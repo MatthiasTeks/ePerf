@@ -1,0 +1,11 @@
+.merch {
+    background: var(--primary-color);
+    width: 100%;
+}
+
+.merch > p {
+    font-family: var(--title-font);
+    font-weight: 400;
+    color: var(--text-color-light);
+    text-align: center;
+}
