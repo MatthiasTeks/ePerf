@@ -1,12 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 let Switch = () => {
     return (
         <div className="navbarSwitch">
-            <p>PERFORMANCES</p>
-            <p>PERIPHERIQUES</p>
-            <p>BOISSONS</p>
-            <p>AUTRES</p>
+            <Link to='/performances'><p>PERFORMANCES</p></Link>
+            <Link to='/peripheriques'><p>PERIPHERIQUES</p></Link>
+            <Link to='/boissons'><p>BOISSONS</p></Link>
         </div>
     )
 }

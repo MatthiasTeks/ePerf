@@ -1,0 +1,41 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    backdrop-filter: contrast(0.5);
+    padding: 2%;
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+
+.login > img {
+    width: 20%;
+}
+
+.sendHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+    margin-top: 5%;
+}
+
+form > svg {
+    color: var(--primary-color);
+    font-size: 22px;
+    text-align: center;
+    padding-right: 4px;
+}
+
+.sendHolder > button {
+    font-family: var(--title-font);
+    background-color: var(--text-color-dark);
+    color: var(--text-color-light);
+    margin-top: 12px;
+    padding: 8px;
+    width: 50%;
+    cursor: pointer;
+}

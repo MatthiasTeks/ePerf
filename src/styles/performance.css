@@ -1,0 +1,28 @@
+.performance {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.rowProduct {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.productLink > img {
+    width: 40%;
+    border-radius: 50%;
+    background: var(--text-color-detail);
+    box-shadow: 1px 1px 1px;
+}

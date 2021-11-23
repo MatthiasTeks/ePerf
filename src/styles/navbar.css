@@ -5,9 +5,11 @@
     align-items: center;
     background: var(--second-color);
     width: 100%;
+    position: sticky;
+    top: 0;
   }
   
-.logoAssets > img {
+.logoAssets > a > img {
     width: 140px;
     height: 70px;
     padding-left: 10%;
@@ -20,7 +22,7 @@
     flex-grow: 1;
 }
 
-.navbarSwitch > p {
+.navbarSwitch > a > p {
     font-family: var(--title-font);
     font-size: 16px;
     font-weight: 500;
@@ -39,4 +41,19 @@
     font-size: 26px;
     padding-left: 12px;
     color: var(--text-color-light);
+}
+
+.icons > a > svg {
+    font-size: 26px;
+    padding-left: 12px;
+    color: var(--text-color-light);
+}
+
+@media screen and (max-width: 1279px) {
+    .navbarSwitch > p {
+        display: none;
+    }
+    .merch > p {
+        font-size: 12px;
+    }
 }

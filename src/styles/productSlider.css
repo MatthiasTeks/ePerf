@@ -137,3 +137,18 @@
 .slide > div:nth-child(n+2) {
     padding-left: 5%;
 }
+
+@media screen and (max-width: 1279px){
+    .slide {
+        flex-direction: column;
+    }
+    .slide > div {
+        padding-left: 0 !important;
+    }
+    .productSlider {
+        align-self: center;
+    }
+    .cardProduct {
+        padding-top: 18px;
+    }
+}
